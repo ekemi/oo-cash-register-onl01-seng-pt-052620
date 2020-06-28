@@ -16,6 +16,11 @@ class CashRegister
   @last_transaction = amount * qty
    end
 
+   def apply_discount
+     @total = (@total * @discount) / 100
+     return @total
+   end
+
 
 
 end
