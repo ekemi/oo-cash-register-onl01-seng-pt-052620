@@ -7,7 +7,7 @@ class CashRegister
     @items = []
   end
 
-  def add_item(amount,title,qty =1 )
+  def add_item(title , amount , qty =1 )
     @total += amount * qyt
 
      qty.times do
