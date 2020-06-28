@@ -16,7 +16,7 @@ attr_accessor :total, :items, :discount , :last_transaction
     quantity.times do
       @items << title
     end
-    
+
   end
   #def total
     #  @total = 100
